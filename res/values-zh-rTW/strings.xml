@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ncue Wifi認證</string>
+    <string name="menu_settings">設定</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="account_title">帳號</string>
+    <string name="password_title">密碼</string>
+    <string name="button_login_title">登入</string>
+    <string name="button_logout_title">登出</string>
+    <string name="login_success">登入成功</string>
+    <string name="logout_success">登出成功</string>
+    <string name="already_login">已經登入囉</string>
+    <string name="login_failed">帳號密碼輸入錯誤\n請再檢查一次</string>
+    <string name="login_only_one_user">此帳號已於其他裝置登入</string>
+    <string name="lo_exception">發生錯誤，請稍後嘗試</string>
+    <string name="em_user">請輸入帳號</string>
+    <string name="em_password">請輸入密碼</string>
+    <string name="em_wifi_enable">請開啟WIFI</string>
+    <string name="em_wifi_connect">請將WiFi連接至NCUE.</string>
+    <string name="open_wifi">開啟 Wifi</string>
+    <string name="ncue_logo_title">國立彰化師範大學 Wifi認證系統</string>
+    <string name="record_information_title">記住帳密</string>
+    <string name="open_wifi_confirm">前往設定</string>
+    <string name="open_wifi_cancel">取消</string>
+    <string name="information_not_enter">請先輸入帳號及密碼</string>
+    <string name="login_imagebutton_info">小工具資訊</string>
+    <string name="login_start">登入中</string>
+    <string name="logout_start">登出中</string>
+    <string name="ncue_wifi_warning">彰化師大無線網路注意事項：\n\n
+									1.彰化師大無線網路使用帳號與密碼，已整合至全校單一簽入系統。\n\n
+									2.本校無線網路亦有加入教育部校園無線網路漫遊機制，可提供師生
+										使用本校的無線網	路帳號與密碼於其他學校的無線網路認證使用。\n\n
+									3.教職員生請使用校園資訊服務入口之帳號與密碼，並請於帳號後加上@cc.ncue.edu.tw
+									 	(教職員部份) 或 @mail.ncue.edu.tw(博碩學士生、進修部在職班部分)。\n\n
+									4.兩台不同電腦或手持式設備於短時間內要以相同帳號登入不同設備時，必須先登出帳
+									 	號，如無出現登出視窗，就必須關閉登入帳號的電腦或設備並等待十五分鐘，方可在其
+									 	他電腦再次以同一帳號登入。</string>
+</resources>

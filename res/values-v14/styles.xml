@@ -1,0 +1,4 @@
+<resources>
+    <style name="AppTheme" parent="Theme.Sherlock.Light" />
+    <style name="DialogTheme" parent="@android:style/Theme.Holo.Light.Dialog" />
+</resources>

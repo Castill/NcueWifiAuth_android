@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imagebutton_widget_button"
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:contentDescription="@string/login_imagebutton_info"
+    android:background="@drawable/wifi_login" >
+</ImageButton>

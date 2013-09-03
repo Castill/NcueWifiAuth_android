@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:minWidth="240dp"
+    android:background="#f0f0f0"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/button_dialog_cancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#f0f0f0"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/open_wifi_cancel" />
+    
+    <Button
+        android:id="@+id/button_dialog_confirm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#f0f0f0"
+        android:textSize="20sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="5dp"
+        android:text="@string/open_wifi_confirm" />
+    
+</LinearLayout>

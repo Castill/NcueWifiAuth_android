@@ -1,0 +1,125 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+   		android:focusable="true"
+		android:focusableInTouchMode="true"  >
+
+        <ImageView
+			android:id="@+id/imageView_ncue_logo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="20dp"
+			android:src="@drawable/ncue_logo"
+			android:contentDescription="@string/ncue_logo_title"
+			android:layout_gravity="center" />
+        
+        <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:orientation="vertical"
+	        android:background="@drawable/background_border"
+	        android:padding="5dp" >
+            
+	        <TextView
+	            android:id="@+id/textView_account"
+	            android:layout_width="300dp"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="5dp"
+	            android:text="@string/account_title"
+	            android:textSize="20sp"
+	        	android:layout_gravity="center" />
+	
+	        <EditText
+	            android:id="@+id/editText_account"
+	            android:layout_width="300dp"
+	            android:layout_height="wrap_content"
+	            android:inputType="textPersonName"
+	        	android:layout_gravity="center" />
+	
+	        <TextView
+	            android:id="@+id/textView_password"
+	            android:layout_width="300dp"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="5dp"
+	            android:text="@string/password_title"
+	            android:textSize="20sp"
+	        	android:layout_gravity="center" />
+	
+	        <EditText
+	            android:id="@+id/editText_password"
+	            android:layout_width="300dp"
+	            android:layout_height="wrap_content"
+	            android:inputType="textPassword"
+	        	android:layout_gravity="center" />
+	
+	        <CheckBox
+	            android:id="@+id/checkBox_record_infomation"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/record_information_title" />
+	        
+	        <LinearLayout
+				android:id="@+id/linearLayout1"
+				android:layout_width="300dp"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+	        	android:layout_gravity="center" >
+	
+	            <Button
+	                android:id="@+id/button_invisible"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:visibility="invisible"
+	                android:enabled="false" />
+	
+				<Button
+				    android:id="@+id/button_login"
+				    style="?android:attr/buttonStyleSmall"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:text="@string/button_login_title"
+				    android:textSize="20sp"
+				    android:textStyle="italic"
+	        		android:layout_gravity="right"
+	        		android:layout_weight="1" />
+		
+				<Button
+				    android:id="@+id/button_logout"
+				    style="?android:attr/buttonStyleSmall"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:text="@string/button_logout_title"
+				    android:textSize="20sp"
+				    android:textStyle="italic"
+	        		android:layout_gravity="right"
+	        		android:layout_weight="1" />
+			</LinearLayout>
+			
+  		</LinearLayout>
+  		
+        <TextView
+			android:id="@+id/textView_ncue_warning"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxWidth="600dp"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:layout_marginTop="20dp"
+			android:layout_marginBottom="3dp"
+			android:padding="5dp"
+			android:text="@string/ncue_wifi_warning"
+			android:textSize="20sp"
+			android:background="@drawable/background_border"
+			android:layout_gravity="center" />
+        
+    </LinearLayout>
+</ScrollView>
